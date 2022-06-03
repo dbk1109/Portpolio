@@ -1,0 +1,311 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset browser styles */
+
+/* animation */
+@keyframes com {
+	0% {
+		bottom: -100%;
+		opacity: .0;
+	}
+	100% {
+	    bottom: 260px;
+		opacity: 1;
+	}
+}
+@keyframes pics {
+	0% {
+		left: -100%;
+		opacity: .0;
+	}
+	30% {
+		left: -100%;
+		opacity: .0;
+	}
+	100% {
+	    left: 360px;
+		opacity: 1;
+	}
+}
+@keyframes pro_content {
+    0% {
+        bottom: -150%;
+    }
+    55% {
+        bottom: -100px;
+    }
+    57% {
+        bottom: -100px;
+    }
+    85% {
+        bottom: -50px;
+    }
+    87% {
+        bottom: -50px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+/* animation end */
+
+/* start stylesheet 본문스타일 */
+
+* { font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: none;
+    color: #fff; }
+
+strong {
+    font-weight: 600;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #373737;
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
+    margin-top: 10px;
+}
+/* */
+#c_profile {
+    width: 1200px;
+    margin: 0 auto;
+}
+.pro_pic {
+    float: left;
+    margin-right: 200px;
+    margin-top: 32px;
+    height: 100%;
+}
+.com {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -140px;
+    z-index: 100;
+    animation: com 1s;
+}
+.pics {
+    position: absolute;
+    z-index: 200;
+	animation: pics 1.5s;
+}
+.boxed{
+    position: absolute;
+    border-right: 30px solid #f7bc3a;
+    margin: 310px 0 0 180px;
+    padding: 15px 20px 15px 50px;
+    z-index: 199;
+    background-color: #f2eadc;
+	animation: pics 2s;
+}
+.crw {
+    color: #373737;
+}
+.bgh {
+    position: absolute;
+    width: 1031px;
+    height: 600px;
+    margin-left: 250px;
+    margin-bottom: -29px;
+    bottom: 0;
+    background: url('/imgs/taja.png') no-repeat;
+    z-index:101;
+}
+.pro_content {
+    text-align: left;
+    margin-left: 556px;
+    position: relative;
+    z-index: 1000;
+    animation: pro_content 2s;
+}
+.pro_content h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
+    margin-top: 10px;
+    color: #373737;
+}
+.pro_content_0 .nn{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    color: #373737;
+}
+.pro_content h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    margin-bottom:20px;
+    color: #373737;
+}
+.pro_content_0 {
+    margin-bottom: 30px;
+}
+.pro_content_1 {
+    padding: 50px 0 0 25px;
+    float: left;
+    width: 250px;
+    background-color: #fff;
+}
+.one {
+    font-size: 13px;
+    background-color: #373737;
+    border-radius: 20px;
+    text-align: center;
+    width: 84px;
+    margin : 20px 0 -8px 5px;
+}
+.cont {
+    font-size: 12px;
+    line-height: 180%;
+    border-top: 1px solid #373737;
+    padding-top: 17px;
+    padding-left: 8px;
+    color: #373737;
+}
+.pro_content_2 {
+    padding: 56px 25px 0 20px;
+    float: left;
+    width: 270px;
+    background-color: #fff;
+}
+.bot {
+    padding-bottom: 75px;
+    text-align: center;
+}
+/* */
+#c_skill {
+    padding-bottom: 135px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: -7%;
+}
+#c_skill h1 {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bot {
+    padding-bottom: 75px;
+    text-align: center;
+}
+#c_skill img {
+    margin: 0 30px 15px 0;
+    float: left;
+}
+.ico {
+    float: left;
+    width: 480px;
+    height: 100px;
+    margin-top: 5px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+.ico p:first-of-type {
+    font-size: 16px;
+    color: #ffff16 !important;
+    margin: 0;
+    padding-bottom: 10px;
+}
+/* */
+#c_portfolio {
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: -3%;
+}
+#c_portfolio h1 {
+    margin: 30px 7px 80px 0;
+    display: inline-block;
+}
+.posi {
+    position: absolute;
+}
+.posi>p {
+    display: inline-block;
+    margin-left: 20px;
+}
+.port {
+    width: 340px;
+    margin-top: 200px;
+    margin-right: 35px;
+    float: left;
+}
+.port img {
+    width: 340px;
+}
+.solid1{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.port h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.port .b {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.topp /*a[href^="http://"]*/{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+.topp a[href^="http://"]{
+    color: #fff;
+}
+.topp a[href^="http://"]:hover {
+    text-decoration: underline;
+}
+.icons {
+    margin-left: 5px;
+    font-size: 10px !important;
+}
+#foot {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    width: auto;
+    padding: 20px 40px 40px 40px;
+}
+#foot a{
+    font-size: 13px;
+    color: #fff;
+}
+.over {
+    margin: 20px 0;
+}
+.over a:hover {
+    background-image: url('images/menu/logo.gif')
+}
