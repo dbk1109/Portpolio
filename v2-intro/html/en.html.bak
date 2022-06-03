@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title> KDB's web portfolio </title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+<meta name="naver-site-verification" content="51bb19155f7e2b5e1b69bbae9eecd13489e8226e"/>
+<link rel="icon" href="../images/favicon.ico">
+<!--css-->
+<link href="../css/style_site.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+<link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Coming+Soon|Permanent+Marker" rel="stylesheet">
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="../js/js.js"></script>
+<script type="text/javascript" src="../js/click.js"></script>
+</head>
+    
+<body>
+<div id="conbox">
+	
+	<div class="header">
+		<a href="../index.html">
+			<div class="logo"></div>
+			<div class="logo_text">dabin-k</div>
+		</a>
+		<div class="mob_nav"><i class="fas fa-bars"></i></div>
+		<div class="nav">
+			<a href="#profile"><span>Profile</span></a>
+			<a href="#skill"><span>Skill</span></a>
+			<a hreF="#portfolio"><span>Portfolio</span></a>
+			<a href="#contact"><span>Contact</span></a>
+		</div>
+	</div>
+	
+	<div class="title">
+		<h1 class="right">Hand</h1><h1>on me</h1>
+		<p> Every pieses of web. Welcome to my page <i class="far fa-smile"></i><br/>
+			I really happy to waiting your contact.</p>
+	</div>
+	
+	<div class="container">
+		
+	<div id="profile">
+	    <div class="left">
+	    </div>
+	    <div class="right">
+	    	<i class="far fa-smile fa-10x"></i>
+	        <h1>hi, I'm Dabin Kim</h1>
+	        <p>
+	        	Thank you for interested my portfolio.<br/>
+	        	In the spring of 2013, During my first year of university.
+	        	I took a general education web design course
+	        	and I began working full time for a web desing department before graduating.
+	        </p>
+	    </div>
+	    
+        <div class="career">
+		    <h2>Career</h2>
+			<p class="one">2017</p>
+			<p> To resign from GOSIGOSI, Inc.<br></p>
+			<p class="one">2015</p>
+			<p> Hired GOSIGOSI Inc. desing department. <br>
+			    SEOIL University graduation. (Industry Bachelor of Arts)</p>
+		    <p class="one">2014</p>
+			<p> SEOIL University 1st semester grades scholarships. </p>
+		    <p class="one">2013</p>
+		    <p> Seong-am International Trade High-School majored Japaness graduation. <br>
+		        SEOIL University majored visual design matriculation. <br>
+		        SEOIL University 1st semester grades scholarships.<br>
+		        The 18th Korea Design Trends Concours [winning]. <br>
+		        Canada short-term language training program of Langara College.</p>
+		    <p class="one">1994</p>
+		    <p> Born in Seoul, Korea </p>
+		</div>
+		
+        <div class="license">
+			<h2>License</h2>
+			<p> [Human Resources Development Service of Korea]<br>
+			    - Craftsman Computer Graphics Operation <br>
+			    - Craftsman Web Design <br>
+				[Korean Association of Certified Public Tax Accountants]<br>
+				- Computation accounts Grade 2<br>
+				[Korea Chamber of Commerce and Industry]<br>
+				- Word processor<br>
+				- Trading English Grade 3<br>
+				[the Korea Productivity Center]<br>
+				- ITQ (Hansoft Office, Microsoft PowerPoint) </p>
+        </div>
+    </div>
+    
+    </div>
+
+</div>
+</body>
+</html>
+</body>
+
+</html>
